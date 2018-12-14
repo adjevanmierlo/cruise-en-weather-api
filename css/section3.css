@@ -1,0 +1,53 @@
+.parallax {
+    /* The image used */
+    background-image: url("../foto/parallax.jpeg");
+      
+
+  
+    /* zet een speciale hoogte */
+    min-height: 400px; 
+  
+    /* creer het scroll effect
+     */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-section3 h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    padding: 100px;
+}
+
+.container-section3 h5{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+  }
+
+ 
+.werknemer1 img {
+    background-color: #0055A6;
+    border: solid #01407f;
+    border-radius: 50%;
+    height: 276px;
+}
+
+.werknemer2 img{
+    background-color: #0055A6;
+    border: solid #01407f;
+    border-radius: 50%;
+    height: 276px;
+}
+
+.werknemer3 img{
+    background-color: #0055A6;
+    border: solid #01407f;
+    border-radius: 50%;
+    height: 276px;
+}
+
+

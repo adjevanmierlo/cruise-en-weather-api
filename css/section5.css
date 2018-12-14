@@ -1,0 +1,63 @@
+.parallax2 {
+    /* The image used */
+    background-image: url("../foto/parallax2.jpg");
+      
+
+  
+    /* zet een speciale hoogte */
+    min-height: 400px; 
+  
+    /* creer het scroll effect
+     */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #fff;
+    width: 1200px; 
+    margin: auto;
+    padding-bottom: 67px;
+    padding-top: 67px;
+}
+  
+marquee {
+    height: 300px;
+    width: 100%;
+}
+  
+img {
+    height: 300px;
+}
+@media screen and (max-width: 1200px) {
+    section {
+        width: 100%;
+    }
+}
+
+.myvideo {
+  text-decoration: none;
+  color: #fff;
+  background: red;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  z-index:100;
+  position: absolute;
+  bottom: 20px;
+}
+.myvideo:hover {
+  color: #000;
+}
+
+.container-section5 h1 {
+    padding: 100px;
+    text-align: center;
+    font-size:60px;
+    font-family: "lobster"
+}
